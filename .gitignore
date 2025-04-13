@@ -1,1 +1,5 @@
+# Ignore all CSV files
 *.csv
+
+# Except Salary.csv
+!Salary.csv
