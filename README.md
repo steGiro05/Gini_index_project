@@ -15,3 +15,11 @@ pip install pandas
 ## Usage
 ```bash
 python main.py
+```
+
+## 📚 References
+
+- **Dataset**: [Download Salary Dataset](https://www.kaggle.com/datasets/amirmahdiabbootalebi/salary-by-job-title-and-country)  
+  _Replace `#` with the actual URL or relative path to your dataset._
+
+
