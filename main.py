@@ -1,13 +1,17 @@
 import subprocess
 
+import subprocess
+import sys
+
 def run_script(script_path):
     print(f"Running: {script_path}")
-    result = subprocess.run(["python", script_path], capture_output=True, text=True)
+    result = subprocess.run([sys.executable, script_path], capture_output=True, text=True)
     if result.returncode != 0:
         print(f"Error in {script_path}:\n{result.stderr}")
         raise RuntimeError(f"Script {script_path} failed")
     else:
         print(f"Completed: {script_path}\n{result.stdout}")
+
 
 def main():
     try:
